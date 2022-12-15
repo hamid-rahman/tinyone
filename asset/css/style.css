@@ -80,7 +80,7 @@ nav.nav {
     margin: 0 -0px;
 }
 .slider-right {
-    text-align: center;
+    margin-left: 260px;
 }
 .slider-right img{
    width: 300px;
@@ -217,5 +217,7 @@ input.form-control.rounded {
     line-height: 28px;
     font-family: 'PT Sans', sans-serif;
 }
-
+.slick-dots li button:before{
+    font-size: 16px;
+}
 /* footer */
