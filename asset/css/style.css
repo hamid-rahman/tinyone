@@ -14,21 +14,6 @@ ul,li{
     height: 650px;
     padding-top: 25px;
 }
-/* div#navbarNav {
-    display: flex;
-    justify-content: end;
-}
-li.nav-item {
-    padding: 0 35px;
-}
-li.nav-item a {
-    color: #000;
-    font-weight: 700;
-    font-size: 18px;
-}
-li.nav-item a:hover {
-    color: rgb(80, 79, 79);
-} */
 
 nav.nav {
     display: flex;
@@ -48,9 +33,18 @@ nav.nav {
     margin-left: 30px;
 }
 /* header part end */
-
+body{
+    overflow-x: hidden;
+}
 
 /* slider */
+.slider{
+    min-height: 400px;
+   
+}
+.slick-dots li button:before{
+    font-size: 16px;
+}
 .slider-left{
     padding-right: 100px;
     margin: 80px 0 0 50px;
@@ -217,7 +211,5 @@ input.form-control.rounded {
     line-height: 28px;
     font-family: 'PT Sans', sans-serif;
 }
-.slick-dots li button:before{
-    font-size: 16px;
-}
+
 /* footer */
