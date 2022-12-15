@@ -140,6 +140,7 @@ nav.nav {
 /* footer */
 #footer{
     background: #010101;
+    margin-top: 150px;
 }
 #footer .common-content h2{
     color: #fcdb00;
