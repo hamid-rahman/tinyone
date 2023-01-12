@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-*{
-margin: 0;
-padding: 0;
-font-family: 'PT Sans', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
 }
-ul,li{
+
+ul,
+li {
     text-decoration: none;
     list-style: none;
 }
+
 /* header part start */
-#header{
+#header {
     background: #fcdb00;
     height: 650px;
     padding-top: 25px;
@@ -19,105 +23,125 @@ nav.nav {
     display: flex;
     justify-content: space-between;
 }
+
 .menu {
     display: flex;
     align-items: center;
 }
+
 .menu a {
     color: #000;
     font-size: 20px;
     font-weight: 700;
     font-family: 'PT Sans', sans-serif;
 }
+
 .nav-link {
     margin-left: 30px;
 }
+
 /* header part end */
-body{
+body {
     overflow-x: hidden;
 }
 
 /* slider */
-.slider{
+.slider {
     min-height: 400px;
-   
+
 }
-.slick-dots li button:before{
+
+.slick-dots li button:before {
     font-size: 16px;
 }
-.slider-left{
+
+.slider-left {
     padding-right: 100px;
     margin: 80px 0 0 50px;
 }
-.logo img{
+
+.logo img {
     margin-left: 50px;
 }
-.slider-left h2{
+
+.slider-left h2 {
     color: #000;
     font-weight: 600;
     font-size: 30px;
 }
-.slider-left h3{
+
+.slider-left h3 {
     color: #313841;
     font-weight: 400;
     font-size: 18px;
     width: 80%;
 }
-.slider-left p{
+
+.slider-left p {
     color: #313841;
     font-weight: 400;
     font-size: 13px;
     margin: 30px 0 45px 0;
 }
-.brand-logos img{
+
+.brand-logos img {
     padding-right: 50px;
     margin: 0 -0px;
 }
+
 .slider-right {
     margin-left: 260px;
 }
-.slider-right img{
-   width: 300px;
+
+.slider-right img {
+    width: 300px;
 }
+
 /* slider */
 
 
 /* common-heading */
-.common-content{
+.common-content {
     margin: 120px 0 90px 0;
     text-align: center;
 }
-.common-content h2{
+
+.common-content h2 {
     font-size: 30px;
     color: #000;
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
 }
-.common-content p{
+
+.common-content p {
     font-size: 16px;
     color: #989898;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     margin: 0 250px;
 }
+
 /* common-heading */
 
 
 /* features card */
-.features-card{
+.features-card {
     display: flex;
-    
+
 }
-.features-content{
+
+.features-content {
     margin-left: 20px;
 }
-.features-content h4{
+
+.features-content h4 {
     font-size: 22px;
     color: #000;
     font-family: 'PT Sans', sans-serif;
     font-weight: 500;
 }
-.features-content p{
+
+.features-content p {
     font-size: 13px;
     color: #989898;
     font-family: 'PT Sans', sans-serif;
@@ -125,18 +149,21 @@ body{
     padding: 0 90px 0 0;
     line-height: 18px;
 }
-.features-logo img{
+
+.features-logo img {
     width: 30px;
 }
+
 /* features card */
 
 
 /* footer */
-#footer{
+#footer {
     background: #010101;
     margin-top: 150px;
 }
-#footer .common-content h2{
+
+#footer .common-content h2 {
     color: #fcdb00;
 }
 
@@ -146,13 +173,16 @@ body{
     /* text-align: center; */
     margin: 0 auto;
 }
+
 input.form-control.rounded {
     margin-right: 25px;
 }
-.search{
+
+.search {
     margin-bottom: 80px;
 }
-.search button{
+
+.search button {
     background: #fcdb00;
     color: #000;
     font-weight: 700;
@@ -161,18 +191,19 @@ input.form-control.rounded {
     font-family: 'PT Sans', sans-serif;
     transition: all linear .2s;
 }
-.search button:hover{
+
+.search button:hover {
     background: rgb(207, 207, 38);
-    transition: all linear .2s;   
+    transition: all linear .2s;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.social a{
+.social a {
     margin: 0 15px;
     font-size: 20px;
     display: block;
@@ -186,24 +217,26 @@ input.form-control.rounded {
     color: #000;
 }
 
-.bottom-content{
+.bottom-content {
     margin: 130px 0;
 }
-.bottom-content h4{
-   color: #fff;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 28px;
-   font-family: 'PT Sans', sans-serif;
-}
-.bottom-content p{
-   color: #fff;
-   font-weight: 400;
-   font-size: 18px;
-   font-family: 'PT Sans', sans-serif;
+
+.bottom-content h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'PT Sans', sans-serif;
 }
 
-.footer-menu ul li a{
+.bottom-content p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer-menu ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 400;

@@ -1,3 +1,4 @@
+
 $('.slider').slick({
   autoplay: true,
   autoplaySpeed: 2000,
@@ -7,3 +8,20 @@ $('.slider').slick({
   fade: true,
   cssEase: 'linear'
 });
+
+
+// $(function () {
+//   //    sticky navbar
+//   $(window).scroll(function () {
+//       var scrolling = $(this).scrollTop();
+//       var sticky = $(".sticky-top");
+//       if (scrolling >= 110) {
+//           sticky.addClass("navbg");
+//       } else {
+//           sticky.removeClass("navbg");
+//       }
+//   });
+// });
+
+
+
